@@ -21,11 +21,12 @@
       font-family:'Red Hat Display';
     }
     .container{
+      margin:70px auto;
       box-sizing: border-box;
       border: 1px solid none;
       box-shadow: 0px 0px 20px 10px hsl(226, 28%, 76%);
       width: 300px;
-      margin: auto;
+      
       border-radius: 15px;
       background-color:  hsl(225, 100%, 98%);
     }
@@ -53,7 +54,9 @@
       background-color: hsl(220, 17%, 93%);
       margin: auto;
     }
-    
+    .music{
+      margin-top: 10px;
+    }
     .annual{
       font-weight: bold;
     }
@@ -62,6 +65,8 @@
     }
     .change{
       margin-top: 20px;
+      text-decoration: underline;
+      color: #3846df;
     }
     .btn{
       margin: 15px;
@@ -84,8 +89,7 @@
       cursor: pointer;
       padding: 20px;
     }
-    .attribution { font-size: 11px; text-align: center; padding: 20px; font-weight: bold;}
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
 
     @media screen and (min-width: 375px){
       body{
@@ -95,28 +99,39 @@
       background-color:  hsl(226, 26%, 84%);
       }
       .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       box-sizing: border-box;
       border: 1px solid none;
       box-shadow: 0px 0px 20px 10px hsl(226, 28%, 76%);
-      width: 350px;
-      margin: auto;
+      width: 400px;
       border-radius: 15px;
       background-color:  hsl(225, 100%, 98%);
     }
+    .small{
+      padding: 0px;
+    }
     .illustration{
       border: 1px solid none;
+      
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
-      width: 350px;
+      width: 400px;
+    }
+    h2{
+      font-size: 25px;
     }
     .para1{
+      font-size: 18px;
       width: 90%;
-      margin: auto;
+      margin-top: 10px;
     }
     .section{
       padding: 30px;
     }
-    .attribution{text-align: center;}
+    
     }
   </style>
 </head>
@@ -124,6 +139,7 @@
   <div class="container">
     <div class="intro-talk">
       <img class="illustration" src="illustration-hero.svg" width="300px">
+    <div class="small">
       <div class="section">
       <h2> Order Summary </h2>
 
@@ -135,7 +151,7 @@
       <img class="music" src="icon-music.svg" width="50px" height="50px">
       <p class="sub"><span class="annual">Annual Plan</span><br>
       $59.99/year</p>
-      <p class="change"><a href="#"><strong>Change</strong></a></p>
+      <p class="change"><strong>Change</strong</p>
     </div>
         
     <div class="but-sect">
@@ -145,12 +161,9 @@
     <div class="cancel">
         Cancel Order
     </div>
-        
+  </div>   
       </div>
   </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">TheCephas</a>.
-  </div>
+  
 </body>
 </html>
