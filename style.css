@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url("/Images/pattern-background-mobile.svg");
+    background-image: url("Images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: hsl(225, 100%, 94%);
@@ -48,11 +48,15 @@ body{
   }
 .annual{
     font-weight: bold;
+    margin-bottom: 5px;
   }
 .sub{
+    font-size: 12px;
+    margin-top: 9px;
     margin-right: 30px;
   }
 .change{
+    font-size: 12px;
     margin-top: 20px;
     text-decoration: underline;
     color: #3846df;
@@ -83,7 +87,7 @@ body{
 
 @media screen and (min-width: 450px){
     body{
-      background-image: url("/Images/pattern-background-desktop.svg");
+      background-image: url("Images/pattern-background-desktop.svg");
       background-repeat: no-repeat;
       background-size: contain;
       background-color:  hsl(225, 100%, 94%);
