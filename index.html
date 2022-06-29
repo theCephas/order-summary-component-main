@@ -3,137 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Order summary card</title>
 
   
-  <style>
-    body{
-      text-align: center;
-      background-image: url("pattern-background-mobile.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color:  hsl(226, 26%, 84%);
-      font-size: 16px;
-      font-family:'Red Hat Display';
-    }
-    .container{
-      margin: auto;
-      box-sizing: border-box;
-      border: 1px solid none;
-      box-shadow: 0px 0px 20px 10px hsl(226, 28%, 76%);
-      width: 300px;
-      
-      border-radius: 15px;
-      background-color:  hsl(225, 100%, 98%);
-    }
-    .illustration{
-      border: 1px solid none;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      width: 300px;
-    }
-    .para1{
-      font-weight: 900px;
-      color: grey;
-    }
-    .section{
-      padding: 20px;
-    }
-    .subscription{
-      display: flex;
-      justify-content: space-around;
-      border: 1px solid none;
-      border-radius: 10px;
-      width: 80%;
-      padding: 5px;
-      font-size: 1rem;
-      background-color: hsl(220, 17%, 93%);
-      margin: auto;
-    }
-    .music{
-      margin-top: 10px;
-    }
-    .annual{
-      font-weight: bold;
-    }
-    .sub{
-      margin-right: 30px;
-    }
-    .change{
-      margin-top: 20px;
-      text-decoration: underline;
-      color: #3846df;
-    }
-    .btn{
-      margin: 15px;
-      width: 85%;
-      padding: 15px;
-      border:  none;
-      border-radius: 10px;
-      box-shadow: 20px 20px 50px hsl(230, 24%, 66%);
-      font-size: 1.2rem;
-      font-family: 'Red Hat Display';
-      font-weight: bold;
-      color: hsl(227, 23%, 84%);
-      background-color:  #3846df;
-      cursor: pointer;
-    }
-    .cancel{
-      font-weight: bold;
-      font-size: 1em;
-      color: grey;
-      cursor: pointer;
-      padding: 20px;
-    }
-    
-
-    @media screen and (min-width: 375px){
-      body{
-        background-image: url("pattern-background-desktop.svg");
-        background-repeat: no-repeat;
-        background-size:contain;
-      background-color:  hsl(226, 26%, 84%);
-      }
-      .container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      box-sizing: border-box;
-      border: 1px solid none;
-      box-shadow: 0px 0px 20px 10px hsl(226, 28%, 76%);
-      width: 400px;
-      border-radius: 15px;
-      background-color:  hsl(225, 100%, 98%);
-    }
-    .illustration{
-      border: 1px solid none;
-      border-top-right-radius: 10px;
-      border-top-left-radius: 10px;
-      width: 400px;
-    }
-    h2{
-      font-size: 25px;
-    }
-    .para1{
-      font-size: 18px;
-      margin-top: 10px;
-    }
-    .section{
-      padding: 30px;
-    }
-    
-    }
-  </style>
+  
 </head>
 <body>
   <div class="container">
     <div class="intro-talk">
-      <img class="illustration" src="illustration-hero.svg" width="300px">
+      <img class="illustration" src="/Images/illustration-hero.svg" width="300px">
     
       <div class="section">
       <h2> Order Summary </h2>
@@ -143,7 +25,7 @@
       </p>
     </div>    
     <div class="subscription">
-      <img class="music" src="icon-music.svg" width="50px" height="50px">
+      <img class="music" src="/Images/icon-music.svg" width="50px" height="50px">
       <p class="sub"><span class="annual">Annual Plan</span><br>
       $59.99/year</p>
       <p class="change"><strong>Change</strong</p>
